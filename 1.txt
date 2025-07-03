@@ -1,0 +1,24 @@
+1. Whiteboard all the possible variations for winning, losing, and draw. You might make a table to organize the results (like tables used to describe the result of two boolean expressions).
+
+Player    	Computer	  Result
+Rock	      Rock	      Draw
+Rock	      Paper	      Lose
+Rock	      Scissors   	Win
+Paper     	Rock      	Win
+Paper     	Paper     	Draw
+Paper	      Scissors	  Lose
+Scissors  	Rock	      Lose
+Scissors	  Paper	      Win
+Scissors	  Scissors  	Draw
+
+
+
+2. Compare and contrast the Magic 8-ball assignment. What will be similar? What will be different?
+
+Both the Magic 8-Ball in Python and Rock, Paper, Scissors in JavaScript follow the same coding flow: input, process, and output. 
+The Magic 8-Ball uses simple randomness with no logic checks, while Rock, Paper, Scissors requires conditional logic to determine 
+a win, lose, or draw. Python's syntax is simpler and more forgiving, whereas JavaScript needs stricter syntax and type handling, 
+but the core logic and structure are similar in both.
+Rock, Paper, Scissors needs more control structures (if statements), which helps build deeper understanding of conditionals and program flow.
+Rock, Paper, Scissors includes game rules, comparisons, and branching logic to determine the result.
+Magic 8-Ball is purely random with no decision-making logic.
