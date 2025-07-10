@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+table {
+  margin-top: 20px;
+  width: 300px;
+  height: 120px;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+td {
+  font-weight: bold;
+  border: 2px solid orangered;
+}
+
+.col-1 {
+  background-color: #ff5733;
+  color: white;
+}
+
+.col-2 {
+  background-color: #33c1ff;
+  color: black;
+}
+
+.col-3 {
+  background-color: #85ff33;
+  color: rgb(222, 67, 15);
+}

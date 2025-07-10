@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css" type="text/css" />
+  </head>
+  <body>
+    <h1>🎰 Slot Machine Game 🎰</h1>
+
+    <div class="balance">Balance: $<span id="balance">100</div>
+
+    <div>
+      <label for="bet">Enter Bet: $</label>
+      <input type="number" id="bet" min="1" />
+      <button id="spin-button">Spin</button>
+    </div>
+
+    <div id="reels">[ ❓ | ❓ | ❓ ]</div>
+
+    <div id="message"></div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

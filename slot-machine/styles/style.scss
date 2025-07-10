@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+
+  h1 {
+    color: gold;
+  }
+
+  #reels {
+    font-size: 3rem;
+    margin: 20px 0;
+  }
+
+  #message {
+    margin-top: 20px;
+    font-size: 1.2rem;
+  }
+
+  input,
+  button {
+    padding: 10px;
+    font-size: 1rem;
+    margin: 5px;
+  }
+
+  .balance {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+}
