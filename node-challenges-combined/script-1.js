@@ -1,10 +1,14 @@
-const createHeading = (size, text) =>
-  size > 0 && size < 7
-    ? `<h${size}>${text}</h${size}>`
-    : "Size should be between 1 to 6";
+const createHeading = (size, text) => {
+  if (size > 0 && size < 7) {
+    const heading = document.createElement(`h${size}`);
+    heading.textContent = text;
+    document.body.appendChild(heading);
+  } else {
+    console.log("Size should be between 1 to 6");
+  }
+};
 
-console.log(createHeading(3, "This is h3 tag!"));
-console.log(createHeading(7, "This is h3 tag!"));
+createHeading(3, "This is created by js.");
 
 const appendElement = (tagName, content, parentClass) => {
   const parents = document.getElementsByClassName(parentClass);
